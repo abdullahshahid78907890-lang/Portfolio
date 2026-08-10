@@ -5,6 +5,16 @@ body{
 a{
     text-decoration: none;
 }
+.ss{
+    border: 1px solid #2c3319;
+    border-radius: 5px;
+    color: #2c3319 !important;
+}
+.ss:hover
+{
+background-color: #2c3319;
+color: #ebdeba !important;
+}
 .btn-primary{
 background-color: #3d4a2a !important;
 color: white !important;
