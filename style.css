@@ -1,0 +1,179 @@
+body{
+      font-family: "Work Sans", sans-serif !important;
+      /* background-color: #f6edd7;  */
+}
+a{
+    text-decoration: none;
+}
+.btn-primary{
+background-color: #3d4a2a !important;
+color: white !important;
+}
+.p-data p{
+    color: #6b7458 !important;
+
+}
+
+
+.navbar{
+    background-color: #ebdeba !important;
+}
+.nav-link{
+    font-size: 17px !important;
+}
+.intro h1{
+    font-size: 56px;
+}
+.card-p{
+    background-color: #f3efe6c2;
+}
+.intro p{
+    color: rgb(68, 67, 67);
+    font-size: 18px; 
+}
+h1{
+    color: #2c3319;
+}
+h2{
+    color: #3d4a2a;
+}
+.btn-secondary{
+    background-color:#f6edd7!important;
+    color: #6b7458;
+}
+.fstt p ,small{
+    color: #ebdeba;
+}
+.tt{
+    color: #ebdeba;
+}
+.ff{
+    border: 1px solid rgba(75, 68, 68, 0.174) !important;
+}
+.fsst{
+    background-color:#6b7458 !important;
+}
+.para{
+    font-size: 18px !important;
+    color:#5a6647 !important;
+}
+.hover-c{
+    background-color: rgba(255, 255, 255, 0.88);
+    bottom: 17px;
+    left:150px;
+    opacity: 0;
+    transition: all .5s ease;
+}
+.imgg:hover .hover-c{
+    opacity: 1;
+    bottom:75px ;
+}
+.btt{
+    background-color: #f6edd7!;
+    color: #3d4a2a;
+}
+
+.hover-c a{
+padding: 8px !important;
+}
+.fstt{
+height: 250px ;
+
+}
+
+
+.fstt a{
+
+    font-size: 24px!important ;
+    color:#3d4a2a;
+}
+.irr{
+}
+#workprocess{
+    background-color: #f3efe6c2;
+}
+.as{
+    color: #3d4a2a;
+}
+small{
+    color: #3d4a2a;
+}
+#af{
+    color: #f6edd7;
+}
+.p-bar {
+  padding: 0 20px!important;  /* left-right thoda gap - ye tumhara "x-axis padding" wala issue fix karega */
+  max-width: 90% !important;   /* full width nahi lega, thoda chota rahega */
+  margin: 0 auto !important;   /* center mein aa jayega */
+}
+.card-img-top {
+  width: 100%;
+  height: 220px;        /* ye value fix rakho — sab cards ke liye same */
+  object-fit: cover;    /* image ko crop karke poora area fill karega, stretch nahi hoga */
+}
+.card-title{
+    font-weight: 600 !important;
+    color: #2c3319;
+
+}
+.card-text{
+    color:#3d4a2a;
+}
+.card a{
+    border:1px solid ;
+    border-color: #2c3319;
+}
+.bb:hover{
+    color: #ebdeba !important;
+    background-color: #3d4a2a !important;
+}
+.vv{
+    color: #3d4a2a; 
+    font-size: 22px !important;
+}
+.bb:hover .vv{
+    color: #ebdeba !important;
+}
+/* ============wrapeer */
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);   /* dark overlay */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.preview-btn {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  padding: 10px 25px;
+  background:#5a6647;
+  color:#ebdeba;
+  font-weight: 600; 
+  font-size: 19px;
+  text-decoration: none;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+}
+
+.img-wrapper:hover::before,
+.img-wrapper:hover .preview-btn {
+  opacity: 1;
+}
+/* ======== */
+.car{
+    border: 1px solid black;
+}

@@ -1,0 +1,760 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
+    <link href="bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- ===header staart -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="logo d-flex gap-3">
+            <img
+              src="./images/logo1.png"
+              alt=""
+              style="width: 55px; height: 55px"
+              class="img-fliud"
+            />
+            <h3 class="mb-0 mt-2 fw-bold text-black">Abdullah Shahid</h3>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav gap-4 ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-6 fw-medium active btn btn-primary"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6 fw-medium" href="#">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link fs-6 fw-medium" aria-disabled="true"
+                  >Process</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6 fw-medium" aria-disabled="true"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6 fw-medium" aria-disabled="true">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-6 fw-medium" aria-disabled="true"
+                  >Service</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-6 fw-medium btn btn-primary"
+                  aria-disabled="true"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ======header end============== -->
+
+    <!-- =============profile starrt============== -->
+    <section id="intro">
+      <div class="container pt-xl-5">
+        <div class="row g-3">
+          <div class="col-lg-6">
+            <div class="left d-flex flex-column gap-xxl-5">
+              <div class="intro">
+                <h1 class="fw-bold head">Hi, myself Abdullah Shahid</h1>
+                <p class="para">
+                  I'm Abdullah Shahid, a Full-Stack Web Developer specializing
+                  in building modern, responsive, and scalable web applications.
+                  I develop high-quality front-end interfaces and powerful
+                  back-end solutions using modern technologies. I have worked on
+                  a variety of real-world projects, including business,
+                  healthcare, and e-commerce websites, with a strong focus on
+                  performance, security, and delivering an excellent user
+                  experience.
+                </p>
+
+                <a
+                  class="nav-link fs-6 fw-medium btn-primary mb-2 py-2 px-3"
+                  style="width: fit-content"
+                  aria-disabled="true"
+                  >Say Hello!</a
+                >
+              </div>
+              <div class="left-2 d-flex flex-column flex-md-row gap-3 mt-lg-5">
+                <div
+                  class="fsst px-4 px-xl-5 py-4 d-flex flex-column btn-secondary text-center w-100 w-md-auto"
+                  style="width: fit-content"
+                >
+                  <p class="fs-3 m-0 tt fw-bold">15 Y.</p>
+                  <small id="af">Experience</small>
+                </div>
+                <div
+                  class="fsst px-4 px-xl-5 py-4 d-flex flex-column btn-secondary text-center w-100 w-md-auto"
+                  style="width: fit-content"
+                >
+                  <p class="fs-3 m-0 tt fw-bold">
+                    250<i class="ri-add-fill"></i>
+                  </p>
+                  <small id="af">Project Complete</small>
+                </div>
+                <div
+                  class="fsst px-4 px-xl-5 py-4 d-flex flex-column btn-secondary text-center w-100 w-md-auto"
+                  style="width: fit-content"
+                >
+                  <p class="fs-3 m-0 tt fw-bold">
+                    100<i class="ri-add-fill"></i>
+                  </p>
+                  <small id="af">Happy Clients </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- rght abo
+           ut -->
+          <div class="col-lg-6">
+            <div class="right pb-lg-4">
+              <img
+                src="./images/person.png"
+                class="img-fluid"
+                style=""
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===============profikeeee -->
+    <section id="profiel" class="py-3">
+      <div class="container">
+        <div class="card-p shadow-lg p-4 rounded-3" style="width: fit-content">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="imgg position-relative">
+                <img src="./images/person.png" class="img-fluid" alt="" />
+                <div
+                  class="hover-c d-flex gap-3 shadow-lg p-3 rounded-2 position-absolute"
+                  style="width: fit-content"
+                >
+                  <a
+                    class="px-2 py-1 d-flex justify-content-center btn-primary align-items-center fs-6 fw-medium"
+                    aria-disabled="true"
+                    ><i class="ri-facebook-fill"></i
+                  ></a>
+                  <a
+                    class="px-2 py-1 d-flex justify-content-center btn-primary align-items-center fs-6 fw-medium"
+                    aria-disabled="true"
+                    ><i class="ri-messenger-fill"></i
+                  ></a>
+                  <a
+                    class="px-2 py-1 d-flex justify-content-center btn-primary align-items-center fs-6 fw-medium"
+                    aria-disabled="true"
+                    ><i class="ri-instagram-fill"></i
+                  ></a>
+                  <a
+                    class="px-2 py-1 d-flex justify-content-center btn-primary align-items-center fs-6 fw-medium"
+                    aria-disabled="true"
+                    ><i class="ri-twitter-fill"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="p-data pt-5">
+                <h2 class="fw-bold fs-2 mb-4 pt-lg-5 mt-lg-5">
+                  I am Professional User Experience Designer and Web Developer
+                </h2>
+                <p class="mt-2 mb-2 par">
+                  I specialize in developing complete web applications from
+                  front-end interfaces to back-end systems. I design and develop
+                  services for customers specializing creating stylish, modern
+                  websites, web services and online stores. My passion is to
+                  design digital user experiences.
+                </p>
+                <p class="mt-3 mb-5 par">
+                  I enjoy creating clean user interfaces, developing secure
+                  APIs, and delivering high-performance solutions that provide
+                  an excellent user experience.
+                </p>
+
+                <div class="btn d-flex gap-3 p-0">
+                  <a
+                    class="nav-link fs-6 fw-medium btn-primary py-2 px-4 rounded-2"
+                    style="width: fit-content"
+                    aria-disabled="true"
+                    >My Project</a
+                  >
+                  <a
+                    class="nav-link ff fs-6 fw-medium bg-body-tertiary border-2 py-2 px-3 rounded-2"
+                    style="width: fit-content"
+                    aria-disabled="true"
+                    href="#"
+                    download
+                    ><i class="ri-download-cloud-2-fill"></i> Download CV</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------work provess -->
+    <section id="workprocess">
+      <div class="container">
+        <div class="row gy-3 my-4">
+          <div class="col">
+            <div class="left-w mt-lg-5 p-5">
+              <h2 class="fw-bold mb-3">Design & Development Process</h2>
+              <p class="para mb-2">
+                My workflow is centered on simplicity, performance, and user
+                experience. I carefully plan each project, design clean and
+                intuitive interfaces, and build responsive websites that
+                prioritize speed, accessibility, and reliability
+              </p>
+              <p class="para mt-3">
+                Every detail from layout and typography to functionality and
+                responsiveness—is refined to create a seamless digital
+                experience that meets both user expectations and business goals.
+              </p>
+            </div>
+          </div>
+          <div class="col pb-5">
+            <div class="row gx-3 mb-3 mt-lg-5">
+              <div class="col">
+                <div class="fstt shadow p-3 py-5 bg-body rounded-3">
+                  <a
+                    href=""
+                    class="d-flex px-3 py-2 mb-3 justify-content-center align-items-center btn-secondary"
+                    href="#"
+                    style="width: fit-content"
+                    ><i class="ri-calendar-fill"></i>
+                  </a>
+                  <h6 class="as fw-bold">1. Research</h6>
+                  <small
+                    >Design meets function in every pixel, blending clarity with
+                    intuitive motion.</small
+                  >
+                </div>
+              </div>
+              <div class="col">
+                <div class="fstt shadow p-3 py-5 bg-body rounded-3">
+                  <a
+                    href=""
+                    class="d-flex px-3 py-2 mb-3 justify-content-center align-items-center btn-secondary"
+                    href="#"
+                    style="width: fit-content"
+                  >
+                    <i class="ri-line-chart-line"></i>
+                  </a>
+
+                  <h6 class="as fw-bold">2. Analysis</h6>
+                  <small
+                    >Crafting clean, thoughtful interfaces where form flows
+                    seamlessly into clarity.</small
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="row gx-3 mb-3">
+              <div class="col">
+                <div class="fstt shadow p-3 py-5 bg-body rounded-3">
+                  <a
+                    href=""
+                    class="d-flex px-3 py-2 mb-3 justify-content-center align-items-center btn-secondary"
+                    href="#"
+                    style="width: fit-content"
+                    ><i class="ri-pencil-fill"></i>
+                  </a>
+                  <h6 class="as fw-bold">3. Design</h6>
+                  <small
+                    >I design seamless digital experiences with precision,
+                    purpose, and a touch of elegance.</small
+                  >
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="fstt shadow p-3 py-5 bg-body rounded-3"
+                  style="width: fit-content"
+                >
+                  <a
+                    href=""
+                    class="d-flex px-3 py-2 mb-3 justify-content-center align-items-center btn-secondary"
+                    href="#"
+                    style="width: fit-content"
+                    ><i class="ri-computer-fill"></i>
+                  </a>
+                  <h6 class="as fw-bold">4. Implement</h6>
+                  <small
+                    >I craft digital products where thoughtful design meets
+                    performance-driven,
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfo;ip =====================-->
+    <section id="Skills">
+      <div class="container">
+        <div class="det p-4">
+          <h2 class="text-center fw-bold">My Skills</h2>
+          <p class="text-center para mt-3">
+            Combining creativity with technical precision to design <br />
+            clean, user-focused digital experiences. Skilled in transforming
+            <br />
+            ideas into responsive, functional, and visually engaging solutions.
+          </p>
+        </div>
+        <div class="row p-lg-4 g-5">
+          <div class="col-md-6">
+            <div class="p-bar">
+              <div
+                class="spa d-flex justify-content-between align-items-center"
+              >
+                <h4>HTMl</h4>
+                <h4>95%</h4>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 12px"
+              >
+                <div class="progress-bar btn-primary" style="width: 95%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-bar">
+              <div
+                class="spa d-flex justify-content-between align-items-center"
+              >
+                <h4>CSS</h4>
+                <h4>85%</h4>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 12px"
+              >
+                <div class="progress-bar btn-primary" style="width: 85%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-bar">
+              <div
+                class="spa d-flex justify-content-between align-items-center"
+              >
+                <h4>Bootstrap</h4>
+                <h4>75%</h4>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 12px"
+              >
+                <div class="progress-bar btn-primary" style="width: 78%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-bar">
+              <div
+                class="spa d-flex justify-content-between align-items-center"
+              >
+                <h4>Wordpress</h4>
+                <h4>90%</h4>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 12px"
+              >
+                <div class="progress-bar btn-primary" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-bar">
+              <div
+                class="spa d-flex justify-content-between align-items-center"
+              >
+                <h4>UI & UX</h4>
+                <h4>90%</h4>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 12px"
+              >
+                <div class="progress-bar btn-primary" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="p-bar">
+              <div
+                class="spa d-flex justify-content-between align-items-center"
+              >
+                <h4>E-commerce</h4>
+                <h4>70%</h4>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Basic example"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 12px"
+              >
+                <div class="progress-bar btn-primary" style="width: 90%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -===========services============ -->
+    <section class="ser py-5">
+      <div class="container">
+        <div class="det p-4">
+          <h2 class="text-center fw-bold">My Services</h2>
+          <p class="text-center para mt-3">
+            I offer a range of web development services, combining clean <br />
+            design with reliable functionality to help businesses build a <br />
+            strong online presence
+          </p>
+        </div>
+        <div class="row g-3">
+          <div class="col-12 col-md-4">
+            <div
+              class="car text-center py-3 px-4 border-2 h-100 d-flex flex-column align-items-center"
+            >
+              <img src="./images/icon/analysis.png" style="width: 50px" />
+              <h5 class="mt-4">WEB DESIGN</h5>
+              <p>
+                Creating clean, modern, and responsive website layouts tailored
+                to your brand and audience.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div
+              class="car text-center py-3 px-4 border-2 h-100 d-flex flex-column align-items-center"
+            >
+              <img src="./images/icon/video-camera.png" style="width: 50px" />
+              <h5 class="mt-4">Front-End Development</h5>
+              <p>
+                Building fast, mobile-friendly interfaces using HTML, CSS, and
+                Bootstrap for a smooth experience.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div
+              class="car text-center py-3 px-4 border-2 h-100 d-flex flex-column align-items-center"
+            >
+              <img src="./images/icon/solution.png" style="width: 50px" />
+              <h5 class="mt-4">Responsive Design</h5>
+              <p>
+                Ensuring your website looks and works perfectly across all
+                devices mobile and others devices
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========portfolio
+      -->
+    <section id="portfolio" class="py-5">
+      <div class="container">
+        <div class="det p-4">
+          <h2 class="text-center fw-bold">Portfolio</h2>
+          <p class="text-center para mt-3">
+            A curated selection of full-stack projects showcasing <br />
+            clean, responsive design paired with efficient, scalable back-end
+            architecture.
+          </p>
+        </div>
+        <div class="row g-4">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <div class="img-wrapper">
+                <img
+                  src="./images/portfolio/p1.jpg"
+                  class="card-img-top"
+                  alt="Sarab Fast Food & Restaurant"
+                />
+                <a
+                  href="https://tumhari-website-link.com"
+                  target="_blank"
+                  class="preview-btn"
+                >
+                  Live Preview
+                </a>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <small class="text-uppercase">Web Design</small>
+                <h5 class="card-title">Sarab Fast Food & Restaurant</h5>
+                <p class="card-text">
+                  I designed a fast, responsive restaurant website featuring an
+                  interactive menu, smooth navigation, and a clean layout built
+                  to drive online orders.
+                </p>
+                <a
+                  href="#"
+                  class="btn bb btn-outline-dark mt-auto"
+                  style="width: fit-content"
+                  >See Details <i class="ri-arrow-right-line vv"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <div class="img-wrapper">
+                <img
+                  src="./images/portfolio/about.jpg"
+                  class="card-img-top"
+                  alt="Medical"
+                />
+                <a
+                  href="https://tumhari-website-link.com"
+                  target="_blank"
+                  class="preview-btn"
+                >
+                  Live Preview
+                </a>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <small class="text-uppercase">HEALTHCARE</small>
+                <h5 class="card-title">Medical & Healthcare Website</h5>
+                <p class="card-text">
+                  A modern healthcare website with appointment booking, doctor
+                  profiles, and service listings — designed for clarity and ease
+                  of navigation.
+                </p>
+                <a
+                  href="#"
+                  class="btn bb btn-outline-dark mt-auto"
+                  style="width: fit-content"
+                  >See Details <i class="ri-arrow-right-line vv"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <div class="img-wrapper">
+                <img
+                  src="./images/portfolio/21.jpg"
+                  class="card-img-top"
+                  alt="Sarab Fast Food & Restaurant"
+                />
+                <a
+                  href="https://tumhari-website-link.com"
+                  target="_blank"
+                  class="preview-btn"
+                >
+                  Live Preview
+                </a>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <small class="text-uppercase">Finance</small>
+                <h5 class="card-title">VaultEdge - Financial Landing Page</h5>
+                <p class="card-text">
+                  A sleek financial landing page focused on building trust
+                  through clean typography, structured layout, and clear
+                  call-to-actions.
+                </p>
+                <a
+                  href="#"
+                  class="btn bb btn-outline-dark mt-auto"
+                  style="width: fit-content"
+                  >See Details <i class="ri-arrow-right-line vv"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <div class="img-wrapper">
+                <img
+                  src="./images/portfolio/app-1.jpg"
+                  class="card-img-top"
+                  alt="Sarab Fast Food & Restaurant"
+                />
+                <a
+                  href="https://tumhari-website-link.com"
+                  target="_blank"
+                  class="preview-btn"
+                >
+                  Live Preview
+                </a>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <small class="text-uppercase">Web Design</small>
+                <h5 class="card-title">eNno - Business & Corporate Website</h5>
+                <p class="card-text">
+                  A professional corporate website featuring service listings,
+                  team profiles, and a clean layout designed to build trust and
+                  showcase business offerings effectively.
+                </p>
+                <a
+                  href="#"
+                  class="btn bb btn-outline-dark mt-auto"
+                  style="width: fit-content"
+                  >See Details <i class="ri-arrow-right-line vv"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <div class="img-wrapper">
+                <img
+                  src="./images/portfolio/onli.jpg"
+                  class="card-img-top"
+                  alt="Sarab Fast Food & Restaurant"
+                />
+                <a
+                  href="https://tumhari-website-link.com"
+                  target="_blank"
+                  class="preview-btn"
+                >
+                  Live Preview
+                </a>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <small class="text-uppercase">E-Commerce</small>
+                <h5 class="card-title">Aroma Online Shopping Website</h5>
+                <p class="card-text">
+                  A clean and modern e-commerce website featuring product
+                  listings, category filters, and a smooth shopping experience —
+                  designed to boost online sales and customer engagement.
+                </p>
+                <a
+                  href="#"
+                  class="btn bb btn-outline-dark mt-auto"
+                  style="width: fit-content"
+                  >See Details <i class="ri-arrow-right-line vv"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <div class="img-wrapper">
+                <img
+                  src="./images/portfolio/sct.webp"
+                  class="card-img-top"
+                  alt="Sarab Fast Food & Restaurant"
+                />
+                <a
+                  href="https://tumhari-website-link.com"
+                  target="_blank"
+                  class="preview-btn"
+                >
+                  Live Preview
+                </a>
+              </div>
+              <div class="card-body d-flex flex-column">
+                <small class="text-uppercase">Business</small>
+                <h5 class="card-title">
+                  ScrewFast – Hardware & Construction Services
+                </h5>
+                <p class="card-text">
+                  A business website for a hardware and construction services
+                  company, featuring service listings, product categories, and a
+                  clean layout built to generate leads and inquiries.
+                </p>
+                <a
+                  href="#"
+                  class="btn bb btn-outline-dark mt-auto"
+                  style="width: fit-content"
+                  >See Details <i class="ri-arrow-right-line vv"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
