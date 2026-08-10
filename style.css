@@ -16,7 +16,7 @@ color: white !important;
 
 
 .navbar{
-    background-color: #ebdeba !important;
+    background-color:#fff9ea !important;
 }
 .nav-link{
     font-size: 17px !important;
@@ -155,7 +155,7 @@ small{
 .preview-btn {
   position: absolute;
   top: 70%;
-  left: 50%;
+  left: 30%;
   /* transform: translate(-50%, -50%); */
   padding: 10px 25px;
   background:#5a6647;
@@ -176,4 +176,15 @@ small{
 /* ======== */
 .car{
     border: 1px solid black;
+    background-color: #fff9ea;
+}
+.car h5{
+    color: #5a6647;
+  font-weight: 600;
+}
+.car p{
+    color: #5a6647;
+}
+#portfolio{
+    background-color: #fff9ea;
 }
