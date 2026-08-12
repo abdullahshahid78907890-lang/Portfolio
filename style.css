@@ -2,6 +2,11 @@ body {
     font-family: "Work Sans", sans-serif !important;
     /* background-color: #f6edd7;  */
 }
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
 html {
   scroll-behavior: smooth;
 }
