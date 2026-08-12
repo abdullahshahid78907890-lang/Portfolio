@@ -2,6 +2,9 @@ body {
     font-family: "Work Sans", sans-serif !important;
     /* background-color: #f6edd7;  */
 }
+html {
+  scroll-behavior: smooth;
+}
 
 a {
     text-decoration: none;
@@ -267,6 +270,14 @@ small {
 }
 .car:hover {
     transform: translateY(-10px);
+}
+.car img {
+  width: 50px;
+  transition: transform 0.4s ease;
+}
+
+.car:hover img {
+  transform: scale(1.15);
 }
 
 .car h5 {
