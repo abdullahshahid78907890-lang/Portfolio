@@ -357,6 +357,9 @@ footer {
     background-color: #4d5442;
     color: #ebdeba;
 }
+.foot-det{
+    color: #f6edd7 !important;
+}
 
 footer a {
     color: #ebdeba;
@@ -371,16 +374,16 @@ footer a:hover {
     color: #f6edd7;
 }
 
-.zz:hover {
-    color: #2c3319;
+.xz:hover{
+   font-weight: 800 !important;
 }
-
 /* Scroll Up Button */
 .zzz {
     background: #353d21 !important;
     color: #ebdeba !important;
     border: 1px solid #737b5e !important;
     box-shadow: 0 5px 15px rgba(44, 51, 25, 0.35);
+    transition: all  .8s ease;
 }
 
 .zzz:hover {
